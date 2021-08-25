@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restassuredTests.Demo3_DELETE_Request">
+      <class name="restassuredTests.Demo1_GET_Request">
         <methods>
-          <include name="Delete"/>
+          <include name="getUserDetails"/>
         </methods>
-      </class> <!-- restassuredTests.Demo3_DELETE_Request -->
+      </class> <!-- restassuredTests.Demo1_GET_Request -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
